@@ -1,0 +1,14 @@
+
+.link-line-removal{
+    text-decoration: none;
+    color:rgb(99, 91, 255);
+}
+
+.line-marker{
+    height: 35px;
+    width: 0px;
+    background-color: rgb(0, 212, 255);
+    border:1px solid rgb(0, 212, 255);
+    float:left;
+}
+
