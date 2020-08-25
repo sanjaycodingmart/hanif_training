@@ -218,10 +218,37 @@
 .question-module{
     position: relative;
     color:rgb(99, 91, 255);
-    font-size :16px;
+    font-size :20px;
 }
 
 .question-module-heading{
     position: relative;
     margin-left:220px;
+}
+
+.stripe-info-main-header{
+    color:rgb(10, 37, 64);
+    font-size: 25px;
+    float: right;
+    border:0px;
+    padding:0px;
+    font-weight: 425;
+}
+
+.stripe-info-details{
+    color:rgb(66, 84, 102);
+    font-weight:300;
+    line-height: 1.5;
+}
+
+.right-align{
+    margin-right: 50px;
+}
+
+.left-align{
+    margin-left: 50px;
+}
+
+.stripe-info-details-two{
+    color:rgb(66, 84, 102);
 }
