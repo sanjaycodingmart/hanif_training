@@ -1,0 +1,80 @@
+
+.question-module{
+    position: relative;
+    color:rgb(99, 91, 255);
+    font-size :20px;
+}
+
+.question-module-heading{
+    position: relative;
+    margin-left:220px;
+}
+
+.stripe-info-main-header{
+    color:rgb(10, 37, 64);
+    font-size: 15px;
+    border:0px;
+    padding:0px;
+    font-weight: 900;
+}
+
+.stripe-info-details{
+    color:rgb(66, 84, 102);
+    font-weight:300;
+    line-height: 1.5;
+    font-family: sohne-var, "Helvetica Neue", Arial, sans-serif;
+}
+
+.right-align{
+    margin-right: 50px;
+}
+
+.left-align{
+    margin-left: 50px;
+}
+
+.stripe-info-details-two{
+    color:rgb(66, 84, 102);
+    font-family: sohne-var, "Helvetica Neue", Arial, sans-serif;
+}
+
+.design-content{
+    height: 270px;
+    z-index: 1;
+}
+
+.stripe-info-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: fit-content;
+    justify-content: space-evenly;
+}
+
+.stripe-info-intro-container{
+    flex-shrink: 2;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 80px;
+
+}
+
+.stripe-info-main-container{
+    flex-shrink: 2;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    min-height: 250px;
+}
+
+.stripe-info-main-holder{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+

@@ -1,0 +1,103 @@
+.contact-info-container{
+    position: relative;
+    background-color: whitesmoke;
+    flex-shrink:2;
+    width: 100%;
+    min-height: 500px;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 85px;
+}
+.contact-info-container::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    height: 50%;
+    width:100%;
+    background: inherit;
+    z-index:-1;
+    content: '';
+    transform-origin: top left;
+    transform: skewY(-8deg);
+}
+
+.contact-info-flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 500px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.contact-info-flex-container-one{
+    height: inherit;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 1;
+}
+
+.contact-info-flex-container-two{
+    height: inherit;
+    min-width: 250px;
+    flex-shrink: 1;
+}
+
+.contact-info-flex-container-three{
+    height: inherit;
+    min-width: 250px;
+    flex-shrink: 1;
+}
+
+.contact-info-flex-container-four{
+    height: inherit;
+    min-width: 250px;
+    flex-shrink: 1;
+}
+
+.content-holder{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.stripe-logo{
+    font-size:24px;
+    font-weight:600;
+    color: black;
+    align-self: flex-end;
+}
+
+.content-location{
+    font-size:14px;
+    font-weight:600;
+    color: black;
+}
+
+.content-language{
+    font-size:14px;
+    font-weight:600;
+    color: black;
+}
+
+.product-heading{
+    font-size:20px;
+    font-weight: 600;
+    color:rgb(10, 37, 64)
+}
+
+.content-link{
+    color:rgb(10, 37, 64);
+    cursor: pointer;
+    line-height: 2;
+}
+
+.content-link:hover{
+    color: rgb(173, 189, 204);
+}

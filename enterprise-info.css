@@ -1,0 +1,100 @@
+.enterprise-stripe-division-one{
+    margin-top:80px;
+    min-height:300px;
+    min-width:500px;
+    display:inline;
+    align-content: center;
+    float: right;
+}
+
+.enterprise-stripe-division-two{
+    min-height:300px;
+    min-width:500px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top:80px;
+    justify-self: stretch;
+}
+
+.enterprise-stripe-heading{
+    color:black;
+    font-size:24px;
+    font-weight:600;
+    align-content: center;
+}
+
+.enterprise-info{
+    font-size: 18px;
+    color :rgb(66, 84, 102);
+    line-height: 1.5;
+}
+
+.enterprise-button-div{
+    display:inline;
+}
+
+.enterprise-button-one{
+    border-radius:25px;
+    outline: none;
+    height:30px;
+    background-color: rgb(99, 91, 255);
+    color: white;
+    min-width: 100px;
+    border:none;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top:5px;
+    padding-bottom:5px;
+    cursor:pointer;
+}
+
+.enterprise-button-one:hover{
+    background-color: rgb(10, 37, 64);
+}
+
+.enterprise-button-two{
+    border-radius:25px;
+    outline: none;
+    height:30px;
+    background-color: inherit;
+    color: rgb(99, 91, 255);
+    min-width: 100px;
+    border:none;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top:5px;
+    padding-bottom:5px;
+    cursor: pointer;
+}
+
+.enterprise-button-two:hover{
+    color: rgb(10, 37, 64);
+}
+.enterprise-stripe-pricing{
+    min-height: 250px;
+    width: 250px;
+}
+
+.enterprise-stripe-api{
+    min-height: 250px;
+    width:250px;
+}
+
+.enterprise-stripe-pricing-heading{
+    margin-top: 3px;
+}
+
+.enterprise-stripe-container{
+    background-color: white;
+    min-height:500px;
+    display:flex;
+    flex-direction: row ;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+

@@ -14,4 +14,36 @@
 
 .div-in-disp{
     display: inline;
+    width: 250px;
+}
+
+.line-marker-small{
+    height: 25px;
+    width: 0px;
+    background-color: rgb(0, 212, 255);
+    border:1px solid rgb(0, 212, 255);
+    float:left;
+}
+
+.line-marker-small-small{
+    height: 15px;
+    width: 0px;
+    background-color: rgb(0, 212, 255);
+    border:1px solid rgb(0, 212, 255);
+    float:left;
+}
+
+.top-margin-empty{
+    margin-top: 0px;
+}
+
+a:hover{
+    color:black;
+}
+
+.hover-white{
+}
+
+.hover-white:hover{
+    color:white;
 }
