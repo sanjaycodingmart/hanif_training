@@ -1,0 +1,161 @@
+.api-container-one{
+    position: relative;
+    background-color: rgb(10, 37, 64);
+    flex-shrink:2;
+    width: 100%;
+    height: fit-content;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.api-container-one::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    height: 100%;
+    width:100%;
+    background: inherit;
+    z-index:-1;
+    content: '';
+    transform-origin: top left;
+    transform: skewY(-10deg);
+}
+
+.api-container-two{
+    position: relative;
+    background-color: rgb(10, 37, 64);
+    flex-shrink:2;
+    width: 100%;
+    height: fit-content;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.api-container-two::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    height: 100%;
+    width:100%;
+    background: inherit;
+    z-index:-1;
+    content: '';
+    transform-origin: bottom right;
+    transform: skewY(-10deg);
+}
+
+.api-content-holder-one{
+    flex-shrink: 2;
+    min-height: 250px;
+    margin: 10px;
+    min-width: 100px;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    margin-top: 50px;
+}
+
+.api-content-holder-two{
+    flex-shrink: 2;
+    min-height: 250px;
+    margin: 10px;
+    min-width: 100px;
+    width: fit-content;
+    height: fit-content;
+    background-color: inherit;
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 30px;
+    
+}
+
+.api-content-header{
+    color:rgb(0, 212, 255);
+    font-family: sohne-var, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.api-content-title{
+    color:white;
+    font-family:sohne-var, "Helvetica Neue", Arial, sans-serif; 
+    font-size:34px ;
+}
+
+.api-content{
+    color: rgb(173, 189, 204);
+    font-family: sohne-var, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300;
+    line-height: 2;
+}
+
+.doc-button{
+    border-radius: 16.5px;
+    background-color: rgb(0, 212, 255);
+    color: rgb(10, 37, 64);
+    cursor: pointer;
+    outline-color: rgb(10, 37, 64);
+    outline-width: thin;
+    font-weight: 425;
+    font-size: medium;
+    padding: 8px;
+    width: 150px;
+    border: none;   
+}
+
+.doc-button:hover{
+    background-color: white;
+}
+
+.tools-logo{
+    color:rgb(0, 212, 255);
+    font-family: sohne-var, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.tools-info-holder{
+    flex-shrink:1;
+    margin-right: 30px;
+}
+
+.tools-header{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    float: right;
+    border:0px;
+    padding:0px;
+}
+
+.tools-details{
+    color:rgb(173, 189, 204);
+    font-weight:300;
+    line-height: 2;
+}
+
+.tools-button{
+    color:rgb(0, 212, 255);
+    background-color: rgb(10, 37, 64);
+    height: 33px;
+    border:none;
+    font-size:15px;
+    cursor : pointer;
+    outline: none;
+}
+
+.tools-button:hover{
+    color:white;
+}
+

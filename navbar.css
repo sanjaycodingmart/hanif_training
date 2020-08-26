@@ -1,3 +1,9 @@
+
+.nav-and-info-holder{
+    display: inline-block;
+    color: blue;
+}
+
 .container{
     height: fit-content;
     background-color: blue;
@@ -62,6 +68,19 @@
     max-height: fit-content;
 }
 
+.menu-buttons{
+    margin: 10px 10px 10px 23px;
+    font-size:large;
+    border:none;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+
+.menu-buttons:hover{
+    color:rgb(173, 189, 204);
+}
+
 .signin-holder{
     margin: 10px;
     flex-grow: 8;
@@ -79,13 +98,4 @@
     border-color:rgba(255, 255, 255, 0.2);
     background-color: rgba(255, 255, 255, 0.2);
     outline: none;
-}
-
-.menu-buttons{
-    margin: 10px 10px 10px 23px;
-    font-size:large;
-    border:none;
-    cursor: pointer;
-    background-color: transparent;
-    color: white;
 }
